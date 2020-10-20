@@ -1,0 +1,52 @@
+.wrapper {
+    height: fit-content;
+    overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.jumbotron {
+    text-align: center;
+    background-color: aqua;
+    width: 100%;
+    margin: 5px;
+    border-radius: 6px;
+}
+
+.topscore {
+    color: red;
+}
+
+img {
+    height: 200px;
+    width: auto;
+}
+.card-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+}
+.card {
+    text-align: center;
+    border: purple 1px solid;
+}
+
+.card:hover {
+  box-shadow: 0 12px 24px #999, 0 12px 24px #999;
+}
+
+.img-container {
+    height: auto;
+    width: auto;
+}
+
+.img-content {
+    padding-left: .5rem;
+    padding-right: .5rem;
+    font-size: 18px;
+    background: #6CADDC;
+}
+
+.img-content ul {
+    list-style-type: none;
+}
+
