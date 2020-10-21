@@ -16,7 +16,7 @@
 }
 
 img {
-    height: 200px;
+    height: 100px;
     width: auto;
 }
 .card-container {
@@ -28,6 +28,7 @@ img {
 .card {
     text-align: center;
     border: purple 1px solid;
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
 }
 
 .card:hover {
